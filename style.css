@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+    color: orangered;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 2.2rem;
+    padding-top: 1.5%;
+}
+
+p {
+    text-align: justify;
+}
+
+.halfDiv {
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.foodSec {
+    display: flex;
+}
+
+.halfDiv img {
+    width: 75%;
+}
+
+.linkFood {
+    text-decoration: none;
+    background-image: linear-gradient(orangered, orange);
+    padding: 10px 30px;
+    border-radius: 100px;
+    color: white;
+}
+
+.personalHalf {
+    width: 90%;
+}
+
+#bgSection {
+    background-image: url(images/bg1.jpg);
+    background-repeat: no-repeat;
+}
+
+.foodItem {
+    width: 33%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px #888888;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.foodItem p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.foodItem img {
+    width: 80%;
+}
+
+.foodItemDiv {
+    display: flex;
+}
+
+.headParaDiv h1 {
+    text-align: center;
+}
+
+.headParaDiv p {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.fdItemSe {
+    clear: both;
+    content: " ";
+}
+
+.footPart {
+    background-color: gray;
+    text-align: center;
+    height: 140px;
+}
+
+.footPart p {
+    text-align: center;
+}
